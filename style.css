@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* FINE RESET CSS */
+
+body{
+    background: #04022c;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+#titolo{
+    color: #ffffff;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 60px;
+    text-shadow: 0px 0px 30px #ffffff;
+}
+#sottotitolo{
+    color: #08F7A1;
+    font-family: Raleway;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    width: fit-content;
+    margin-top: 10px;
+    text-shadow: 0px 0px 30px #08F7A1;
+}
+#corpo{
+    text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    font-family: Raleway;
+}
+#numero{
+    color: white;
+    font-size: 140px;
+    text-shadow: 0px 3px 10px #42b0dc;
+}
+#barra{
+    background: #04b775;
+    height: 15px;
+    width: 500px;
+    margin-top: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px #7efacc;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+#cntbarra{
+    background: white;
+    height: 10px;
+    width: 10px;
+    margin-left: 245px;
+    margin-right: auto;
+    margin-top: 4px;
+    border-radius: 100px;
+}
+#tabella{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+#tabella td{
+    padding: 10px;
+}
+.btn{
+    width: 80px;
+    background: #ffffff;
+    font-size: 35px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px #0ef7a1;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+.btn:hover{
+    transition-duration: 500ms;
+    background: #0ef7a1;
+}
